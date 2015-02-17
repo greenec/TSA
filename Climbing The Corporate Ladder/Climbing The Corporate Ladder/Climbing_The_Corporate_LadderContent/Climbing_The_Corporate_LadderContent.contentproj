@@ -29,14 +29,15 @@
     <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.AudioImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
     <Reference Include="xTile.Pipeline">
-      <HintPath>..\..\..\..\Documents\GitHub\TSA\Climbing the Corporate Ladder\Climbing the Corporate Ladder\xTile.Pipeline.dll</HintPath>
+      <HintPath>..\..\..\..\TSA (old)\Climbing the Corporate Ladder\Climbing the Corporate Ladder\xTile.Pipeline.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Maps\Level1.tide">
       <Name>Level1</Name>
-      <Importer>TideImporter</Importer>
       <Processor>TideProcessor</Processor>
+      <SubType>Designer</SubType>
+      <Importer>TideImporter</Importer>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="theBall.png">
       <Name>theBall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="black-pen.png">
+      <Name>black-pen</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

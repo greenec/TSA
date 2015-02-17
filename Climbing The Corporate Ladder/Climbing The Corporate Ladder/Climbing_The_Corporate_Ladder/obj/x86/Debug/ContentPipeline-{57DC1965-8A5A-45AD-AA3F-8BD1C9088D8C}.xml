@@ -2,13 +2,42 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
+      <Source>Maps\Level1.tide</Source>
+      <Name>Maps\Level1</Name>
+      <Importer>TideImporter</Importer>
+      <Processor>TideProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\Maps\Level1.xnb</Output>
+      <Time>2015-02-16T18:26:29.8463362-05:00</Time>
+      <Dependency>
+        <Key>background1_layer1.png</Key>
+        <Value>2015-02-16T18:26:29.8503364-05:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>background1_layer2.png</Key>
+        <Value>2015-02-16T18:26:29.8503364-05:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>background1_layer3.png</Key>
+        <Value>2015-02-16T18:26:29.8513364-05:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>TileSheet2.png</Key>
+        <Value>2015-02-16T18:26:29.8493363-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer1.xnb</Request>
+      <Request>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer2.xnb</Request>
+      <Request>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer3.xnb</Request>
+      <Request>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\TileSheet2.xnb</Request>
+    </Item>
+    <Item>
       <Source>Help.png</Source>
       <Name>Help</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\Help.xnb</Output>
-      <Time>2015-02-16T18:11:58.3464892-05:00</Time>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\Help.xnb</Output>
+      <Time>2015-02-16T18:26:29.843336-05:00</Time>
     </Item>
     <Item>
       <Source>idle.png</Source>
@@ -16,8 +45,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\idle.xnb</Output>
-      <Time>2015-02-16T18:11:58.3494894-05:00</Time>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\idle.xnb</Output>
+      <Time>2015-02-16T18:26:29.8543366-05:00</Time>
     </Item>
     <Item>
       <Source>jump.png</Source>
@@ -25,8 +54,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\jump.xnb</Output>
-      <Time>2015-02-16T18:11:58.3514895-05:00</Time>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\jump.xnb</Output>
+      <Time>2015-02-16T18:26:29.8553367-05:00</Time>
     </Item>
     <Item>
       <Source>kick.png</Source>
@@ -34,8 +63,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\kick.xnb</Output>
-      <Time>2015-02-16T18:11:58.3544897-05:00</Time>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\kick.xnb</Output>
+      <Time>2015-02-16T18:26:29.8563367-05:00</Time>
     </Item>
     <Item>
       <Source>Menu.png</Source>
@@ -43,8 +72,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\Menu.xnb</Output>
-      <Time>2015-02-16T18:11:58.3564898-05:00</Time>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\Menu.xnb</Output>
+      <Time>2015-02-16T18:26:29.8473362-05:00</Time>
     </Item>
     <Item>
       <Source>punch.png</Source>
@@ -52,8 +81,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\punch.xnb</Output>
-      <Time>2015-02-16T18:11:58.3674904-05:00</Time>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\punch.xnb</Output>
+      <Time>2015-02-16T18:26:29.8923388-05:00</Time>
     </Item>
     <Item>
       <Source>run.png</Source>
@@ -61,8 +90,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\run.xnb</Output>
-      <Time>2015-02-16T18:11:58.3694905-05:00</Time>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\run.xnb</Output>
+      <Time>2015-02-16T18:26:29.8943389-05:00</Time>
     </Item>
     <Item>
       <Source>theBall.png</Source>
@@ -70,8 +99,17 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\theBall.xnb</Output>
-      <Time>2015-02-16T18:11:58.3714906-05:00</Time>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\theBall.xnb</Output>
+      <Time>2015-02-16T18:26:29.8943389-05:00</Time>
+    </Item>
+    <Item>
+      <Source>black-pen.png</Source>
+      <Name>black-pen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\black-pen.xnb</Output>
+      <Time>2015-02-16T20:42:38.1405359-05:00</Time>
     </Item>
     <Item>
       <Source>music.mp3</Source>
@@ -79,9 +117,9 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\music.xnb</Output>
-      <Extra>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\music.wma</Extra>
-      <Time>2015-02-16T18:11:58.3614901-05:00</Time>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\music.xnb</Output>
+      <Extra>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\music.wma</Extra>
+      <Time>2015-02-16T18:26:29.8853384-05:00</Time>
     </Item>
     <Item>
       <Source>background1_layer1.png</Source>
@@ -89,37 +127,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer1.xnb</Output>
-      <Time>2015-02-15T19:42:10.1082119-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Maps\Level1.tide</Source>
-      <Name>Maps\Level1</Name>
-      <Importer>TideImporter</Importer>
-      <Processor>TideProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\Maps\Level1.xnb</Output>
-      <Time>2015-02-16T18:13:29.1196811-05:00</Time>
-      <Dependency>
-        <Key>background1_layer1.png</Key>
-        <Value>2015-02-15T19:42:10.1082119-05:00</Value>
-      </Dependency>
-      <Dependency>
-        <Key>background1_layer2.png</Key>
-        <Value>2015-02-15T19:42:10.1082119-05:00</Value>
-      </Dependency>
-      <Dependency>
-        <Key>background1_layer3.png</Key>
-        <Value>2015-02-15T19:42:10.109212-05:00</Value>
-      </Dependency>
-      <Dependency>
-        <Key>TileSheet2.png</Key>
-        <Value>2015-02-15T19:42:10.1062118-05:00</Value>
-      </Dependency>
-      <Request>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer1.xnb</Request>
-      <Request>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer2.xnb</Request>
-      <Request>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer3.xnb</Request>
-      <Request>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\TileSheet2.xnb</Request>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer1.xnb</Output>
+      <Time>2015-02-16T18:26:29.8503364-05:00</Time>
     </Item>
     <Item>
       <Source>background1_layer2.png</Source>
@@ -127,8 +136,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer2.xnb</Output>
-      <Time>2015-02-15T19:42:10.1082119-05:00</Time>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer2.xnb</Output>
+      <Time>2015-02-16T18:26:29.8503364-05:00</Time>
     </Item>
     <Item>
       <Source>background1_layer3.png</Source>
@@ -136,8 +145,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer3.xnb</Output>
-      <Time>2015-02-15T19:42:10.109212-05:00</Time>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer3.xnb</Output>
+      <Time>2015-02-16T18:26:29.8513364-05:00</Time>
     </Item>
     <Item>
       <Source>TileSheet2.png</Source>
@@ -145,8 +154,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\TileSheet2.xnb</Output>
-      <Time>2015-02-15T19:42:10.1062118-05:00</Time>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\TileSheet2.xnb</Output>
+      <Time>2015-02-16T18:26:29.8493363-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -155,14 +164,14 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_LadderContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Connor\Desktop\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_LadderContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Users\Connor\Documents\GitHub\TSA\Climbing the Corporate Ladder\Climbing the Corporate Ladder\xTile.Pipeline.dll</Key>
+        <Key>C:\Users\Connor\Documents\GitHub\TSA (old)\Climbing the Corporate Ladder\Climbing the Corporate Ladder\xTile.Pipeline.dll</Key>
         <Value>2015-02-15T19:42:10.1422139-05:00</Value>
       </Assembly>
       <Assembly>
