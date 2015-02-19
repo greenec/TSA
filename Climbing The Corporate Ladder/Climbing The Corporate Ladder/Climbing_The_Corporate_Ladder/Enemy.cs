@@ -26,7 +26,7 @@ namespace Climbing_the_Corporate_Ladder
         {
             
             speed = 10f;
-            pos = new Vector2(2400, 500);
+            pos = new Vector2(2400, 400);
             
             enemyPic = pic;
             aRect = new Rectangle(Convert.ToInt32(pos.X), Convert.ToInt32(pos.Y), picWide, picHigh);

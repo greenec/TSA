@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Maps\Level1.tide</Source>
+      <Name>Maps\Level1</Name>
+      <Importer>TideImporter</Importer>
+      <Processor>TideProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\Maps\Level1.xnb</Output>
+      <Time>2015-02-19T09:19:32.6508-05:00</Time>
+      <Dependency>
+        <Key>background1_layer1.png</Key>
+        <Value>2015-02-19T09:19:32.6598-05:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>background1_layer2.png</Key>
+        <Value>2015-02-19T09:19:32.6598-05:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>background1_layer3.png</Key>
+        <Value>2015-02-19T09:19:32.6608-05:00</Value>
+      </Dependency>
+      <Dependency>
+        <Key>TileSheet2.png</Key>
+        <Value>2015-02-19T09:19:32.6588-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer1.xnb</Request>
+      <Request>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer2.xnb</Request>
+      <Request>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer3.xnb</Request>
+      <Request>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\TileSheet2.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Help.png</Source>
+      <Name>Help</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\Help.xnb</Output>
+      <Time>2015-02-19T10:09:32.3548-05:00</Time>
+    </Item>
+    <Item>
+      <Source>idle.png</Source>
+      <Name>idle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\idle.xnb</Output>
+      <Time>2015-02-19T09:19:32.6688-05:00</Time>
+    </Item>
+    <Item>
+      <Source>jump.png</Source>
+      <Name>jump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\jump.xnb</Output>
+      <Time>2015-02-19T09:19:32.6708-05:00</Time>
+    </Item>
+    <Item>
+      <Source>kick.png</Source>
+      <Name>kick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\kick.xnb</Output>
+      <Time>2015-02-19T09:19:32.6718-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu.png</Source>
+      <Name>Menu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\Menu.xnb</Output>
+      <Time>2015-02-19T09:19:32.6568-05:00</Time>
+    </Item>
+    <Item>
+      <Source>punch.png</Source>
+      <Name>punch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\punch.xnb</Output>
+      <Time>2015-02-19T09:19:32.8328-05:00</Time>
+    </Item>
+    <Item>
+      <Source>run.png</Source>
+      <Name>run</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\run.xnb</Output>
+      <Time>2015-02-19T09:19:32.8338-05:00</Time>
+    </Item>
+    <Item>
+      <Source>theBall.png</Source>
+      <Name>theBall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\theBall.xnb</Output>
+      <Time>2015-02-19T09:19:32.8338-05:00</Time>
+    </Item>
+    <Item>
+      <Source>black-pen.png</Source>
+      <Name>black-pen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\black-pen.xnb</Output>
+      <Time>2015-02-19T09:19:32.6628-05:00</Time>
+    </Item>
+    <Item>
+      <Source>pen-animation.png</Source>
+      <Name>pen-animation</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\pen-animation.xnb</Output>
+      <Time>2015-02-19T09:19:32.8318-05:00</Time>
+    </Item>
+    <Item>
+      <Source>copier.png</Source>
+      <Name>copier</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\copier.xnb</Output>
+      <Time>2015-02-19T09:19:32.6648-05:00</Time>
+    </Item>
+    <Item>
+      <Source>music.mp3</Source>
+      <Name>music</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\music.xnb</Output>
+      <Extra>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\music.wma</Extra>
+      <Time>2015-02-19T09:19:32.7598-05:00</Time>
+    </Item>
+    <Item>
+      <Source>background1_layer1.png</Source>
+      <Name>background1_layer1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer1.xnb</Output>
+      <Time>2015-02-19T09:19:32.6598-05:00</Time>
+    </Item>
+    <Item>
+      <Source>background1_layer2.png</Source>
+      <Name>background1_layer2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer2.xnb</Output>
+      <Time>2015-02-19T09:19:32.6598-05:00</Time>
+    </Item>
+    <Item>
+      <Source>background1_layer3.png</Source>
+      <Name>background1_layer3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer3.xnb</Output>
+      <Time>2015-02-19T09:19:32.6608-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TileSheet2.png</Source>
+      <Name>TileSheet2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\TileSheet2.xnb</Output>
+      <Time>2015-02-19T09:19:32.6588-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_LadderContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_LadderContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Users\eahscs\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\xTile.Pipeline.dll</Key>
+        <Value>2015-02-19T09:23:22.9958-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-04-18T11:24:14.1308-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
