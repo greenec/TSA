@@ -10,7 +10,6 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
-
 namespace Climbing_the_Corporate_Ladder
 {
     class Pen
@@ -28,7 +27,6 @@ namespace Climbing_the_Corporate_Ladder
             penBox = new Rectangle(Convert.ToInt32(point.X), Convert.ToInt32(point.Y), penWide, penHigh);
             speed = 12f;
             penPic = pic;
-
         }
         public Rectangle PenBox
         {
@@ -38,7 +36,7 @@ namespace Climbing_the_Corporate_Ladder
         public Vector2 Point
         {
             get { return this.point; }
-     
+
         }
         public Texture2D PenPic
         {

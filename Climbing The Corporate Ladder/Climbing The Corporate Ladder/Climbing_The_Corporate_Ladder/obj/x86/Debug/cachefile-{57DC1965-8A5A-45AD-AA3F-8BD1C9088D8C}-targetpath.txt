@@ -8,9 +8,11 @@ Content\punch.xnb
 Content\run.xnb
 Content\theBall.xnb
 Content\black-pen.xnb
-Content\music.xnb
-Content\music.wma
 Content\background1_layer1.xnb
 Content\background1_layer2.xnb
 Content\background1_layer3.xnb
 Content\TileSheet2.xnb
+Content\pen-animation.xnb
+Content\music.xnb
+Content\music.wma
+Content\copier.xnb

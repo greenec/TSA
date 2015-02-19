@@ -133,7 +133,6 @@ namespace Climbing_the_Corporate_Ladder
             return null;
         }
 
-
         public virtual KeyValuePair<xTile.Tiles.Tile, Vector2> CollisionEdgeTest(Vector2 point1, Vector2 point2)
         {
             Vector2 point3 = (point1 + point2) / 2;
@@ -247,7 +246,6 @@ namespace Climbing_the_Corporate_Ladder
                         1.0f,
                         effect, 0);
             }
-
         }
 
     }

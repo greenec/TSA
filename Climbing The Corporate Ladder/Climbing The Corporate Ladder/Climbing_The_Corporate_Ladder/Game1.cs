@@ -10,6 +10,8 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using System.Collections;
 
+using System.Media;
+
 // xTile engine namespaces
 using xTile;
 using xTile.Display;
@@ -17,7 +19,7 @@ using xTile.Display;
 namespace Climbing_the_Corporate_Ladder
 {
     // declares variables
-    
+
     enum GameStates
     {
         Menu,
@@ -37,7 +39,7 @@ namespace Climbing_the_Corporate_Ladder
         KeyboardState kbd, prevKbd;
         Color background;
         Rectangle screen;
-        Texture2D menuTexture, helpTexture, copier;
+        Texture2D menuTexture, helpTexture;
 
         ArrayList enemies = new ArrayList();
         Texture2D pic;
@@ -45,7 +47,6 @@ namespace Climbing_the_Corporate_Ladder
         int interval = 0;
 
         // xTile map, display device reference, and rendering viewpoer
-        Map map;
         IDisplayDevice mapDisplayDevice;
         xTile.Dimensions.Rectangle viewport;
 
@@ -71,7 +72,6 @@ namespace Climbing_the_Corporate_Ladder
         Vector2 penPoint;
         float travSpeed;
         const int travel = 500;
-
 
         public Game1()
         {
@@ -122,6 +122,10 @@ namespace Climbing_the_Corporate_Ladder
 
             pic = Content.Load<Texture2D>("theBall");
             penImage = Content.Load<Texture2D>("black-pen");
+
+            // plays music
+            Song song = Content.Load<Song>("music");
+            MediaPlayer.Play(song);
         }
 
         protected override void UnloadContent()
@@ -131,7 +135,6 @@ namespace Climbing_the_Corporate_Ladder
 
         protected override void Update(GameTime gameTime)
         {
-
             kbd = Keyboard.GetState();
 
             // sets fullscreen when tilde is pressed
@@ -166,12 +169,7 @@ namespace Climbing_the_Corporate_Ladder
                 if (kbd.IsKeyDown(Keys.Escape) && prevKbd.IsKeyUp(Keys.Escape))
                 {
                     gameState = GameStates.Menu;
-
                 }
-                
-            
-               
-
                 player.Update(gameTime);
 
                 // update xTile map for animations etc.
@@ -181,8 +179,6 @@ namespace Climbing_the_Corporate_Ladder
             }
 
             prevKbd = kbd;
-
-
 
             if (gameState == GameStates.Game)
             {
@@ -225,16 +221,14 @@ namespace Climbing_the_Corporate_Ladder
                         count++;
                     }
                     //spawn = true;
-
                     interval += 5;
-
                 }
                 int countIndex = -1;
                 int deadIndex = -1;
                 foreach (Object obj in enemies)
                 {
                     Enemy unit = (Enemy)obj;
-                    
+
                     unit.Update();
                     isPunch = player.Punch;
                     rekt = player.MyRect;
@@ -262,16 +256,7 @@ namespace Climbing_the_Corporate_Ladder
                     //just a test, you can edit the game to exit
                     gameState = GameStates.Menu;
                     player.Life = 10;
-
                 }
-                
-                
-                
-                    
-
-
-                
-
             }
             base.Update(gameTime);
         }
@@ -310,7 +295,7 @@ namespace Climbing_the_Corporate_Ladder
             {
                 spriteBatch.Draw(penImage, penPoint, Color.White);
             }
-            
+
             spriteBatch.End();
 
             base.Draw(gameTime);

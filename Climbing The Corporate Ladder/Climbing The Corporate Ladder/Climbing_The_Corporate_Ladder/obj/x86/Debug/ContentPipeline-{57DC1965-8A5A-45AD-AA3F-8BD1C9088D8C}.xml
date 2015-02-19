@@ -109,17 +109,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\black-pen.xnb</Output>
-      <Time>2015-02-16T20:42:38.1405359-05:00</Time>
-    </Item>
-    <Item>
-      <Source>music.mp3</Source>
-      <Name>music</Name>
-      <Importer>Mp3Importer</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\music.xnb</Output>
-      <Extra>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\music.wma</Extra>
-      <Time>2015-02-16T18:26:29.8853384-05:00</Time>
+      <Time>2015-02-17T11:11:06.3650275-05:00</Time>
     </Item>
     <Item>
       <Source>background1_layer1.png</Source>
@@ -156,6 +146,34 @@
       <Options>None</Options>
       <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\TileSheet2.xnb</Output>
       <Time>2015-02-16T18:26:29.8493363-05:00</Time>
+    </Item>
+    <Item>
+      <Source>pen-animation.png</Source>
+      <Name>pen-animation</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\pen-animation.xnb</Output>
+      <Time>2015-02-18T19:10:32.7706408-05:00</Time>
+    </Item>
+    <Item>
+      <Source>music.mp3</Source>
+      <Name>music</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\music.xnb</Output>
+      <Extra>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\music.wma</Extra>
+      <Time>2015-02-16T18:26:29.8853384-05:00</Time>
+    </Item>
+    <Item>
+      <Source>copier.png</Source>
+      <Name>copier</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\copier.xnb</Output>
+      <Time>2015-02-18T19:11:30.6399508-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

@@ -20,15 +20,13 @@ namespace Climbing_the_Corporate_Ladder
         Rectangle aRect;
         int picWide = 60;
         int picHigh = 60;
-        
-        
 
         //enemy constructorino
         public Enemy(Texture2D pic)
         {
             
             speed = 10f;
-            pos = new Vector2(2400, 400);
+            pos = new Vector2(2400, 500);
             
             enemyPic = pic;
             aRect = new Rectangle(Convert.ToInt32(pos.X), Convert.ToInt32(pos.Y), picWide, picHigh);

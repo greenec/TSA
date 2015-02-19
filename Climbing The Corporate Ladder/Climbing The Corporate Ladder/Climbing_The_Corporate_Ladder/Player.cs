@@ -12,7 +12,6 @@ namespace Climbing_the_Corporate_Ladder
 {
     class Player : Sprite
     {
-
         public float gravityTimer = 0f;
         public float gravityTimerMax = 10f;
         public float gravity = 25f;
@@ -130,20 +129,17 @@ namespace Climbing_the_Corporate_Ladder
                                   new Rectangle(0, 0, 233, 298),
                                   2));
             animations["punch"].LoopAnimation = true;
-            animations["punch"].FrameLength = 0.2f;
+            animations["punch"].FrameLength = 0.3f;
 
-            animations.Add("touchdown",
-                    new AnimationStrip(
-                      content.Load<Texture2D>(@"jump"),
-                      "touchdown",
-                      new Rectangle(681, 95, 212, 302),
-                      1));
-
-            animations["touchdown"].FrameLength = 0.4f;
-
-
+            animations.Add("pen",
+                  new AnimationStrip(
+                                  content.Load<Texture2D>(@"pen-animation"),
+                                  "pen",
+                                  new Rectangle(0, 0, 330, 342),
+                                  2)
+                );
+            animations["pen"].FrameLength = 0.6f;
         }
-
 
         public void Jump()
         {
@@ -171,44 +167,6 @@ namespace Climbing_the_Corporate_Ladder
                 this.velocity.Y += gravity;
                 gravityTimer = 0f;
             }
-
-            KeyValuePair<xTile.Tiles.Tile, Vector2> ctest;
-            xTile.Tiles.Tile tile;
-
-            /*
-            // Check collision below
-            KeyValuePair<xTile.Tiles.Tile, Vector2> ctest = CollisionEdgeTest(new Vector2(this.Location.X, this.Location.Y + this.BoundingBoxRect.Height + 1),
-                                                      new Vector2(this.Location.X + this.BoundingBoxRect.Width, this.Location.Y + this.BoundingBoxRect.Height + 1)
-                                                      );
-
-            xTile.Tiles.Tile tile = ctest.Key;
-
-            if (tile != null && !tile.Properties.ContainsKey("Passable"))
-            {
-                if (tile.Properties.Keys.Contains("causeDeath"))
-                {
-                    if (tile.Properties["causeDeath"])
-                    {
-                        if (!Dead)
-                        {
-                            Die();
-                        }
-
-                    }
-                }
-
-                onGround = true;
-
-                if (!Dead)
-                {
-                    this.velocity.Y = 0;
-                    this.location.Y -= (this.location.Y + animations[currentAnimation].FrameHeight + 1) % 48;
-                }
-            }
-            else
-                onGround = false;
-            */
-
 
             if (location.Y + 302 > 650)
             {
@@ -243,9 +201,13 @@ namespace Climbing_the_Corporate_Ladder
                     currentAnimation = "punch";
                     isPunching = true;
                     punchCD = 1;
-
                 }
-                //cd mechanism
+                if (kb.IsKeyDown(Keys.R))
+                {
+                    currentAnimation = "pen";
+                }
+
+                // cd mechanism
                 if (punchCD > 0)
                     punchCD++;
 
@@ -278,7 +240,6 @@ namespace Climbing_the_Corporate_Ladder
                         World.viewport.X -= 5;
                         this.location.X -= 5;
                     }
-
                 }
 
                 if (kb.IsKeyDown(Keys.D))
@@ -290,20 +251,15 @@ namespace Climbing_the_Corporate_Ladder
 
                     if (this.location.X > (World.viewport.X + WalkableArea.Right))
                     {
-
                         World.viewport.X += 5;
                     }
-
                 }
                 if (location.X > 1200)
                 {
                     win = true;
                 }
-
             }
-
             base.Update(gameTime);
         }
-
     }
 }

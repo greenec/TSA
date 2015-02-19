@@ -37,8 +37,10 @@ C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The 
 C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer2.xnb
 C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\background1_layer3.xnb
 C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\TileSheet2.xnb
-C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\music.wma
 C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Climbing_The_Corporate_Ladder.exe
 C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Climbing_The_Corporate_Ladder.pdb
 C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\obj\x86\Debug\Climbing_The_Corporate_Ladder.csprojResolveAssemblyReference.cache
 C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\pen-animation.xnb
+C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\music.wma
+C:\Users\Connor\Documents\GitHub\TSA\Climbing The Corporate Ladder\Climbing The Corporate Ladder\Climbing_The_Corporate_Ladder\bin\x86\Debug\Content\copier.xnb

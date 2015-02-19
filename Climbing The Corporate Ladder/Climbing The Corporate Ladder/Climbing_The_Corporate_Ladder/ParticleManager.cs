@@ -98,7 +98,6 @@ namespace Climbing_the_Corporate_Ladder
                     onGround = false;
             }
 
-
             base.Update(gameTime);
 
             if (!IgnoreCollisions)
@@ -106,8 +105,6 @@ namespace Climbing_the_Corporate_Ladder
 
                 if (!Dead)
                 {
-
-
                     // Right collision test
                     KeyValuePair<xTile.Tiles.Tile, Vector2> ctest = CollisionEdgeTest(new Vector2(this.Location.X + this.BoundingBoxRect.Width, this.Location.Y), new Vector2(this.Location.X + this.BoundingBoxRect.Width, this.Location.Y + this.BoundingBoxRect.Height - 1));
                     tile = ctest.Key;
@@ -183,8 +180,6 @@ namespace Climbing_the_Corporate_Ladder
 
             Particle p = new Particle(animation.Texture, location, velocity, lifeSpan, angularVelocity, ignoreCollisions);
             p.AddAnimation("default", animation);
-
-
 
             particles.Add(p);
         }
